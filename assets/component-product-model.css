@@ -4,6 +4,7 @@
   margin: 1rem auto;
   box-shadow: none;
   display: flex;
+  color: red
 }
 
 .button.product__xr-button:hover {
@@ -12,6 +13,7 @@
 
 .product__xr-button[data-shopify-xr-hidden] {
   visibility: hidden;
+  color: red
 }
 
 .shopify-design-mode .product__xr-button[data-shopify-xr-hidden] {
@@ -35,6 +37,7 @@
 
   .product__xr-button[data-shopify-xr-hidden] {
     display: none;
+    color: red
   }
 }
 

@@ -5,6 +5,7 @@
   --color-foreground: var(--color-base-text);
   --color-background: var(--color-base-background-1);
   --gradient-background: var(--gradient-base-background-1);
+  color: blueviolet;
 }
 
 .color-background-2 {
@@ -2214,7 +2215,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   position: absolute;
   background-color: rgb(var(--color-button));
   color: rgb(var(--color-button-text));
-  height: 1.7rem;
+  height: 100.7rem;
   width: 1.7rem;
   border-radius: 100%;
   display: flex;
@@ -2234,7 +2235,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 .announcement-bar__link {
   display: block;
-  width: 100%;
+  width: 10%;
   padding: 1rem 0;
   text-decoration: none;
 }
@@ -2375,8 +2376,8 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .header__heading {
-  margin: 0;
-  line-height: 0;
+  margin: 10;
+  line-height: 20;
 }
 
 .header > .header__heading-link {
@@ -2465,8 +2466,8 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .header__icons .shopify-app-block {
-  max-width: 4.4rem;
-  max-height: 4.4rem;
+  max-width: 1.4rem;
+  max-height: 1.4rem;
   overflow: hidden;
 }
 
@@ -2482,7 +2483,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .header__icon span {
-  height: 100%;
+  height: 10%;
 }
 
 .header__icon::after {
@@ -2515,10 +2516,10 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 .header__icon--menu[aria-expanded="true"]::before {
   content: "";
-  top: 100%;
+  top: 1%;
   left: 0;
   height: calc(var(--viewport-height, 100vh) - (var(--header-bottom-position, 100%)));
-  width: 100%;
+  width: 10%;
   display: inline;
   position: absolute;
   background: rgba(var(--color-foreground), 0.5);
@@ -2796,12 +2797,12 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__submenu .header__submenu {
   background-color: rgba(var(--color-foreground), 0.03);
-  padding: 0.5rem 0;
-  margin: 0.5rem 0;
+  padding: 20.5rem 0;
+  margin: 30.5rem 0;
 }
 
 .header__submenu .header__menu-item:after {
-  right: 2rem;
+  right: 20rem;
 }
 
 .header__submenu .header__menu-item {
